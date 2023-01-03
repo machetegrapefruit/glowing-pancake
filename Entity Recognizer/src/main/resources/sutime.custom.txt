@@ -1,0 +1,11 @@
+ENV.defaults["stage"] = 1
+ENV.defaults["ruleType"] = "tokens"
+
+
+  JH_CONTRACT = {
+    type: REFTIME,
+	label: "START_CONTRACT",
+	value: RefTime("NOW")
+}
+
+{ (/the/? /start/? /of/? /the/? /contract/) => JH_CONTRACT }

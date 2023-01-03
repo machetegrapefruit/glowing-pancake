@@ -1,0 +1,15 @@
+{
+	"linkerConfig": "lucene",
+	"erProperties": {
+		"item": {
+			"propertyName": "item",
+			"corenlpName": "item",
+			"requiresCorenlp": false,
+			"requiresLinking": true
+		}
+	},
+	"mentionFinderProperties": {
+		"useParser": false,
+		"constituents": ["NP", "NN"]
+	}
+}

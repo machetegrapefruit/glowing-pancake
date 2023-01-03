@@ -1,0 +1,395 @@
+Send	O
+500	O
+GBP	currency
+to	O
+Alice	O
+
+Send	O
+500	O
+GBP	currency
+to	O
+Bob	PERSON
+Jones	PERSON
+at	O
+Bank	bank
+Name	bank
+
+Send	O
+500	O
+GBP	currency
+to	O
+Giovanni	PERSON
+Semeraro	PERSON
+at	O
+Bank	bank
+A	bank
+
+Pay	O
+1200	O
+USD	currency
+to	O
+Bob	PERSON
+Jones	PERSON
+
+Pay	O
+200	O
+GBP	currency
+
+How	O
+do	O
+I	O
+make	O
+a	O
+bank	O
+transfer	O
+?	O
+
+I	O
+want	O
+to	O
+make	O
+a	O
+transfer	O
+
+Transfer	O
+500	O
+USD	currency
+to	O
+Alice	PERSON
+Smith	PERSON
+at	O
+Barclays	bank
+Bank	bank
+
+Transfer	O
+500	O
+USD	currency
+to	O
+Alice	PERSON
+Smith	PERSON
+at	O
+Bank	bank
+
+Send	O
+1500	O
+CAD	currency
+to	O
+John	PERSON
+Travolta	PERSON
+at	O
+Wells	bank
+Fargo	bank
+
+Pay	O
+800	O
+USD	currency
+to	O
+Stephen	PERSON
+King	PERSON
+at	O
+Credit	bank
+Suisse	bank
+
+Buy	inv_keyword
+200	O
+IBM	product
+shares	O
+
+Sell	inv_keyword
+200	O
+IBM	product
+
+Buy	inv_keyword
+200	O
+IBM	product
+with	O
+limit	O
+price	O
+12.01	O
+
+Buy	inv_keyword
+200	O
+IBM	product
+limit	O
+12.01	O
+
+Buy	inv_keyword
+350	O
+Pioner	product
+power	product
+
+Buy inv_keyword
+100 O
+amtech	product
+
+Sell	inv_keyword
+8000	O
+axogen	product
+
+Buy	inv_keyword
+1000	O
+Allegro	product
+
+Buy	inv_keyword
+550	O
+product	product
+name	product
+
+Buy	inv_keyword
+550	O
+product	product
+name	product
+,	O
+limit	O
+16.70	O
+
+I	O
+want	O
+to	O
+buy	inv_keyword
+Polar	product
+power	product
+inc	product
+shares	investment_type
+
+I	O
+want	O
+to	O
+trade	O
+140	O
+neuralstem	product
+with	O
+limit	O
+price	O
+43.00	O
+
+I	O
+want	O
+to	O
+trade	O
+140	O
+nvidia	product
+corporation	product
+,	O
+limit	O
+price	O
+26.13	O
+
+I	O
+want	O
+to	O
+trade	O
+180	O
+erwqafa	product
+cfafojfeojf	product
+,	O
+limit	O
+price	O
+26.13	O
+
+Buy	inv_keyword
+500	O
+Hudson	product
+
+Buy	inv_keyword
+250	O
+nebula	product
+
+Sell inv_keyword
+500	O
+Dropbxo	product
+with	O
+limit	O
+price	O
+15.01	O
+
+Buy inv_keyword
+220	O
+national	product
+vision	product
+,	O
+limit	O
+price	O
+15.01	O
+
+Buy	inv_keyword
+200	O
+bae	product
+systems	product
+
+Buy inv_keyword
+280	O
+nebula	product
+acquisition	product
+corporation	product
+,	O
+limit	O
+price	O
+15.01	O
+
+Buy	inv_keyword
+350	O
+very	product
+long	product
+product	product
+name	product
+company	product
+incorporated	product
+
+Buy	inv_keyword
+350	O
+etf	product
+series	product
+solutions	product
+trust	product
+vident	product
+
+sell	inv_keyword
+340	O
+first	product
+trust	product
+alternative	product
+absolute	product
+
+I	O
+would	O
+like	O
+to	O
+invest	O
+5000	O
+USD	currency
+in	O
+Fidelity	product
+Magellan	product
+Global	product
+Fund	product
+
+I	O
+want	O
+to	O
+invest	O
+2500	O
+EUR	currency
+in	O
+Amundi	product
+Fds	product
+Bond	product
+
+Invest	O
+500	O
+USD	currency
+in	O
+AXA	product
+FRAM	product
+
+I	O
+want	O
+to	O
+invest	O
+in	O
+funds	investment_type
+
+I	O
+want	O
+to	O
+buy	inv_keyword
+stocks	investment_type
+
+What	O
+is	O
+the	O
+balance	O
+of	O
+my	O
+trading	Account
+cash	O
+account	O
+?	O
+
+How	O
+much	O
+cash	O
+do	O
+I	O
+have	O
+on	O
+my	O
+term	Account
+deposit	Account
+account	O
+?	O
+
+Current	Account
+cash	O
+balance	O
+
+What	O
+are	O
+my	O
+cash	O
+account	O
+balances	O
+?	O
+
+What	O
+is	O
+the	O
+value	O
+of	O
+my	O
+portfolio	O
+?	O
+
+What	O
+is	O
+the	O
+value	O
+of	O
+my	O
+discretionary	Portfolio
+portfolio	O
+?	O
+
+How	O
+much	O
+is	O
+my	O
+trading	Portfolio
+portfolio	O
+worth	O
+?	O
+
+ISA	Portfolio
+portfolio	O
+value	O
+
+What	question_key
+is	O
+a	O
+risk	help_topic
+profile	help_topic
+questionnaire	help_topic
+?	O
+
+What	question_key
+is	O
+volatility	help_topic
+?	O
+
+How	question_key
+do	O
+you	O
+calculate	O
+performance	help_topic
+?	O
+
+How	question_key
+much	O
+do	O
+I	O
+have	O
+to	O
+pay	O
+in	O
+commissions	help_topic
+?	O
